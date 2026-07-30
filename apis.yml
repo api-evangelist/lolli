@@ -1,9 +1,27 @@
 aid: lolli
 name: Lolli
-description: 'Lolli is a company surfaced as a portfolio company of version-one-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Lolli is a bitcoin and cash-back rewards company founded in 2018 by CEO Alex Adelman, on
+  a mission to make bitcoin accessible to everyone. Through a browser extension, website, and mobile
+  app, Lolli gives shoppers a percentage of their purchase back in bitcoin or cash when they shop online
+  and in-store at 25,000+ merchants including Adidas, Microsoft, Ulta, and Kroger. Merchants pay Lolli
+  for driving sales, and Lolli shares that commission with users as rewards paid into their Lolli wallet.
+  The company reports having distributed over $10 million in bitcoin rewards and onboarded thousands of
+  people into bitcoin for the first time. Lolli is a consumer product; it does not currently publish a
+  public developer API, SDKs, or API documentation. It was surfaced as a portfolio company of
+  version-one-ventures and added to the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/lolli/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://lolli.com/images/og.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +30,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Bitcoin
+- Rewards
+- Cashback
+- Shopping
+- Consumer
+- E-commerce
 apis: []
+common:
+- type: Website
+  url: https://www.lolli.com/
+- type: Blog
+  url: https://blog.lolli.com/
+- type: Support
+  url: https://www.lolli.com/help
+- type: TermsOfService
+  url: https://www.lolli.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.lolli.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/lolli
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
