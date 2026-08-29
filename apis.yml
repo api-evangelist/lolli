@@ -10,6 +10,17 @@ description: 'Lolli is a bitcoin and cash-back rewards company founded in 2018 b
   public developer API, SDKs, or API documentation. It was surfaced as a portfolio company of
   version-one-ventures and added to the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/lolli/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
